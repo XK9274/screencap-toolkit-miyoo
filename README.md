@@ -2,6 +2,7 @@
 A Screencapturing toolkit for the Miyoo Mini + (Twitch/VNC/RTMP/Outputfile)
 
 All use various methods provided by ffmpeg
+Warning: This may make your mmp a little toasty, it runs almost maxed out on CPU depending on which app you run.
 
 ## Issues
 Overclock generally needed to keep performance up.. the MMP does not handle streaming/encoding very well due to having low resources, some tweaks can be made to the ffmpeg command
