@@ -1,0 +1,6 @@
+{
+"label":	"Start Twitch Stream",
+"icon":	"icon/icon.png",
+"launch":	"launch.sh",
+"description":	"Starts streaming to your Twitch account"
+}

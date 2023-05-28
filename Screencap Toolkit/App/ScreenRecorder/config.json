@@ -1,0 +1,6 @@
+{
+"label":	"Screen Recorder",
+"icon":	"icon/icon.png",
+"launch":	"launch.sh",
+"description":	"Starts screen recording"
+}

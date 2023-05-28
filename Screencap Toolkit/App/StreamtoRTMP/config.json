@@ -1,0 +1,6 @@
+{
+"label":	"Stream to RTMP",
+"icon":	"icon/icon.png",
+"launch":	"launch.sh",
+"description":	"Starts Stream to RTMP"
+}
