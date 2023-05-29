@@ -9,10 +9,10 @@ IP=$(ip route get 1 | awk '{print $NF;exit}')
 
 if pgrep vncserver > /dev/null; then
     killall -9 vncserver
-	LD_PRELOAD=/mnt/SDCARD/miyoo/lib/libpadsp.so /mnt/SDCARD/.tmp_update/bin/infoPanel -t "VNC Server Shutdown" -m "VNC Server Shutdown" --auto &
+	/mnt/SDCARD/.tmp_update/bin/infoPanel -t "VNC Server Shutdown" -m "VNC Server Shutdown" --auto &
 else
     /mnt/SDCARD/App/VNCserver/bin/vncserver -k /dev/input/event0 -F 20 &
-	LD_PRELOAD=/mnt/SDCARD/miyoo/lib/libpadsp.so /mnt/SDCARD/.tmp_update/bin/infoPanel -t "Launching VNC Server" -m "VNC Server has been launched: \n $IP:5900" --auto &
+	/mnt/SDCARD/.tmp_update/bin/infoPanel -t "Launching VNC Server" -m "VNC Server has been launched: \n $IP:5900" --auto &
 fi
 
 # ./vncserver [-f device] [-p port] [-t touchscreen] [-k keyboard] [-r rotation] [-R touchscreen rotation] [-F FPS] [-v] [-h]
