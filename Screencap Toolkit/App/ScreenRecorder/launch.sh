@@ -1,5 +1,5 @@
 #!/bin/sh
-cd /mnt/SDCARD/App/Screenrecorder/
+cd /mnt/SDCARD/App/ScreenRecorder/
 bindir=/mnt/SDCARD/App/ScreencapTK/bin
 libdir=/mnt/SDCARD/App/ScreencapTK/lib
 export sysdir=/mnt/SDCARD/.tmp_update
