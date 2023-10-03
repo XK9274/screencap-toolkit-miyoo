@@ -8,7 +8,7 @@ Warning: This may make your mmp a little toasty, it runs almost maxed out on CPU
 
 ## Issues
 - Overclock generally needed to keep performance up.. the MMP does not handle streaming/encoding very well due to having low resources, some tweaks can be made to the ffmpeg command
-- eggs' cpuclock file is included in the bins and can be used by uncommenting the line in launch.sh.. i've commented these as overclocking is at your own risk. (https://discord.com/channels/529983248114122762/926552349609164872/1109834464760180777) (max 2000!)
+- eggs' cpuclock file is included in the bins and can be used by uncommenting the line in launch.sh.. i've commented these as overclocking is at your own risk. (https://discord.com/channels/529983248114122762/926552349609164872/1109834464760180777) (max 1900!, lowered this as only 1 of my units can sit at 2000)
 
 ## Usage
 - Screenrecorder/StreamtoRTMP/TwitchStream all rely on ScreencapTK being present in the Apps folder
