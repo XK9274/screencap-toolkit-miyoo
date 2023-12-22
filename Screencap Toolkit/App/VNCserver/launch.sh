@@ -11,7 +11,7 @@ if pgrep vncserver > /dev/null; then
     killall -9 vncserver
 	/mnt/SDCARD/.tmp_update/bin/infoPanel -t "VNC Server Shutdown" -m "VNC Server Shutdown" --auto &
 else
-    /mnt/SDCARD/App/VNCserver/bin/vncserver -k /dev/input/event0 -F 20 &
+    /mnt/SDCARD/App/VNCserver/bin/vncserver -k /dev/input/event0 -F 20 -r 180 &
 	/mnt/SDCARD/.tmp_update/bin/infoPanel -t "Launching VNC Server" -m "VNC Server has been launched: \n $IP:5900" --auto &
 fi
 
